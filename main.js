@@ -23,4 +23,16 @@ const sr = scrollReveal ({
 
 sr.reveal('home-text',{delay:200, origin:'top'})
 sr.reveal('home-img',{delay:400, origin:'top'})
+
 sr.reveal('about-title, about-text, .heading , box, input, textarea',{delay:200, origin:'top'})
+fetch("https://formspree.io/f/mgvzpovz", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    })
+        
