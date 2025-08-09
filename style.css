@@ -419,34 +419,6 @@ form .send-btn:hover {
             font-size: 0.938rem;
         }
     }
-    @media(max-width: 768px) {
-        header h1 {
-            font-size: 1.5rem;
-        }
-        nav {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        nav a {
-            width: 100%;
-            text-align: center;
-        }
-    }
-
-    @media(max-width: 480px) {
-        body {
-            font-size: 14px;
-        }
-
-        .container {
-            padding: 10px;
-        }
-        .card h3 {
-            font-size: 1rem;
-        }
-        .card p {
-            font-size: 0.05rem;
-        }
 }
+
 
